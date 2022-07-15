@@ -1,0 +1,22 @@
+{
+  "name": "universe",
+  "dark": true,
+  "author": "Lilly Kate",
+  "editorScheme": "/universe.xml",
+
+  "ui": {
+    "*": {
+    "background": "#13061C",
+    "foreground": "#c7c9d1",
+    "infoForeground": "#c7c9d1",
+    "successForeground": "#c7c9d1",
+    "selectionBackground": "#50246e",
+    "selectionForeground": "#d9e2fa",
+    "selectionInactiveBackground": "#3b1a52",
+    "selectionBackgroundInactive": "#261336",
+    "disabledBackground": "#261336",
+    "inactiveBackground": "#290E3E"
+  },
+    "Panel.background": "#13061C"
+  }
+}

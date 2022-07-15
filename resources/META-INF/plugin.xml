@@ -1,0 +1,27 @@
+<idea-plugin>
+  <id></id>
+  <name>Universe</name>
+  <version>1.0</version>
+  <vendor email="" url="https://www.l1lly.li">L1lly</vendor>
+
+  <description>Universe is a pretty purple, pink and blue theme to make your programming experience more enjoyable ^^</description>
+
+  <change-notes></change-notes>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+      <themeProvider id="6abb7b9c-c5ca-43c8-acbc-bf3be645eb5d" path="/universe.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
